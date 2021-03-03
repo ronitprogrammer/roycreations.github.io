@@ -1,0 +1,40 @@
+#gallery {
+    border-radius: 10px;
+}
+
+#container_box {
+    transition: .2s;
+}
+
+#container_box:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+#carouselExampleControls {
+    margin-top: 25px;
+    border: 2px solid #000;
+    margin: 20px 7px 0 7px;
+    padding: 2px;
+    border: 12px;
+    outline: none;
+}
+
+#slideimg {
+    border-radius: 15px;
+}
+
+.rounded {
+    width: 800px;
+    transition: .2s;
+}
+
+.rounded:hover {
+    background-color: #146c43;
+    color: #fff;
+}
+
+@media (min-width:425px) and (max-width:575.98px){
+    #container_box{
+        /* width: 100px; */
+    }
+}
